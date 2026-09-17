@@ -22,5 +22,6 @@ public class Main {
         testeFormas.rodarTeste();
         testeInterface.TestarPagamento();
         testenoticacoes.teste();
+
     }
     }
