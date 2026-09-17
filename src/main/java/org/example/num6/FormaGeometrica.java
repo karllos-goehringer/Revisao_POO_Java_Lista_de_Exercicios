@@ -10,4 +10,11 @@ public abstract class FormaGeometrica {
      Double calcularArea() {
         return null;
     }
+
+    @Override
+    public String toString() {
+        return "FormaGeometrica{" +
+                "nome='" + nome + '\'' +
+                '}';
+    }
 }

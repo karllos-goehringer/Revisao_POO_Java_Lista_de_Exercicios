@@ -14,4 +14,12 @@ public class Quadrado extends FormaGeometrica{
     Double calcularArea() {
         return lado1 * lado2;
     }
+
+    @Override
+    public String toString() {
+        return "Quadrado{" +
+                "lado1=" + lado1 +
+                ", lado2=" + lado2 +
+                '}';
+    }
 }

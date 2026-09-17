@@ -6,8 +6,7 @@ public class Produto {
     private Integer id;
     static private Integer idIndexer = 1;
 
-    public Produto(Integer id, String nome, String marca) {
-        this.id = id;
+    public Produto(String nome, String marca) {
         this.nome = nome;
         this.marca = marca;
         this.id = idIndexer;

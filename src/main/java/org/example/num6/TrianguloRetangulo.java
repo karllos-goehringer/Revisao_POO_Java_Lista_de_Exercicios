@@ -14,4 +14,12 @@ public class TrianguloRetangulo extends FormaGeometrica{
     Double calcularArea() {
         return (cateto1 * cateto2)/2;
     }
+
+    @Override
+    public String toString() {
+        return "TrianguloRetangulo{" +
+                "cateto1=" + cateto1 +
+                ", cateto2=" + cateto2 +
+                '}';
+    }
 }

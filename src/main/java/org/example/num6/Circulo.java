@@ -10,5 +10,13 @@ public class Circulo extends FormaGeometrica{
     @Override
     Double calcularArea() {
         return Math.PI * Math.pow(raio, 2);
+
+    }
+
+    @Override
+    public String toString() {
+        return "Circulo{" +
+                "raio=" + raio +
+                '}';
     }
 }

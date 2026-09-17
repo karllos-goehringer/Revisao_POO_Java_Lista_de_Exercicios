@@ -14,4 +14,12 @@ public class Retangulo extends FormaGeometrica{
     Double calcularArea() {
         return base * altura;
     }
+
+    @Override
+    public String toString() {
+        return "Retangulo{" +
+                "base=" + base +
+                ", altura=" + altura +
+                '}';
+    }
 }
